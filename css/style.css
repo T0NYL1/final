@@ -15,7 +15,7 @@
 }
 main{
     background-color: lightblue;
-    background-image: url("../images/background.jpeg");
+    background-image: url("../images/background.jpg");
     background-size:cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -151,7 +151,7 @@ gap: 10px;
 .cc img, .cc p{margin: 0 auto;
   position: relative;
   overflow: hidden;}
-.cc video{
+.cc iframe{
   grid-column: 1/span 2;
   margin: 0 auto;
   position: relative;
@@ -236,12 +236,12 @@ h2{border: solid black 6px;
   
   background-color: rgba(0, 208, 255, 0.9);margin: 0 auto;}
 
-img,video{border: 7px solid maroon;margin: 0 auto;}
+img,iframe{border: 7px solid maroon;margin: 0 auto;}
 
-img:hover,video:hover{scale: 1.2;
+img:hover,iframe:hover{scale: 1.2;
 border:7px solid rgb(0, 128, 102) ;}
 
-video:hover{scale: 1.1;
+iframe:hover{scale: 1.1;
   border:7px solid rgb(0, 128, 102) ;}
 
   #top{margin: 0 auto;}
